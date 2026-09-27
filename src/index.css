@@ -1,1 +1,15 @@
-@tailwind base;@tailwind components;@tailwind utilities;:root{color-scheme:dark}html,body,#root{height:100%}body{font-family:Inter,system-ui,sans-serif;background:#171717;color:#fff}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+color-scheme:dark}
+html,
+body,
+#root{
+height:100%}
+body{
+font-family:Inter,
+system-ui,
+sans-serif;
+background:#171717;
+color:#fff}
