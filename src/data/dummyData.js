@@ -1,2 +1,76 @@
-export const ARTICLES={rice:{id:'rice',name:'Basmati Reis',unit:'g',gebinde:5000,purchasePricePerUnit:.0042,image:'https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=200&q=70'},chicken:{id:'chicken',name:'Hähnchenbrust',unit:'g',gebinde:2500,purchasePricePerUnit:.0089,image:'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=200&q=70'},curry:{id:'curry',name:'Currysauce',unit:'ml',gebinde:1000,purchasePricePerUnit:.0062,image:'https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=200&q=70'},veg:{id:'veg',name:'Wokgemüse',unit:'g',gebinde:2000,purchasePricePerUnit:.0048,image:'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=200&q=70'}}
-export const BUFFET_TEMPLATES=[{id:'tpl-asian',title:'Asian Buffet',category:'International',tags:['Asiatisch','Klassiker'],image:'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=900&q=70',totalPersons:30,globalMarkupPct:65,status:'published',courses:[{id:'hauptgang',name:'Hauptgang',dishes:[{id:'dish-curry',name:'Hähnchen-Curry Thai-Style',items:[{articleId:'chicken',grammPerPerson:120},{articleId:'curry',grammPerPerson:80},{articleId:'veg',grammPerPerson:90}]}]},{id:'beilage',name:'Beilage',dishes:[{id:'dish-rice',name:'Basmati Reis',items:[{articleId:'rice',grammPerPerson:75}]}]}]}]
+export const ARTICLES={
+rice:{
+id:'rice',
+name:'Basmati Reis',
+unit:'g',
+gebinde:5000,
+purchasePricePerUnit:.0042,
+image:'https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=200&q=70'}
+,
+chicken:{
+id:'chicken',
+name:'Hähnchenbrust',
+unit:'g',
+gebinde:2500,
+purchasePricePerUnit:.0089,
+image:'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=200&q=70'}
+,
+curry:{
+id:'curry',
+name:'Currysauce',
+unit:'ml',
+gebinde:1000,
+purchasePricePerUnit:.0062,
+image:'https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=200&q=70'}
+,
+veg:{
+id:'veg',
+name:'Wokgemüse',
+unit:'g',
+gebinde:2000,
+purchasePricePerUnit:.0048,
+image:'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=200&q=70'}
+}
+export const BUFFET_TEMPLATES=[{
+id:'tpl-asian',
+title:'Asian Buffet',
+category:'International',
+tags:['Asiatisch',
+'Klassiker'],
+image:'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=900&q=70',
+totalPersons:30,
+globalMarkupPct:65,
+status:'published',
+courses:[{
+id:'hauptgang',
+name:'Hauptgang',
+dishes:[{
+id:'dish-curry',
+name:'Hähnchen-Curry Thai-Style',
+items:[{
+articleId:'chicken',
+grammPerPerson:120}
+,
+{
+articleId:'curry',
+grammPerPerson:80}
+,
+{
+articleId:'veg',
+grammPerPerson:90}
+]}
+]}
+,
+{
+id:'beilage',
+name:'Beilage',
+dishes:[{
+id:'dish-rice',
+name:'Basmati Reis',
+items:[{
+articleId:'rice',
+grammPerPerson:75}
+]}
+]}
+]}
+]
