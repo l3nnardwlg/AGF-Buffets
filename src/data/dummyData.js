@@ -31,23 +31,29 @@ gebinde:2000,
 purchasePricePerUnit:.0048,
 image:'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=200&q=70'}
 }
-export const BUFFET_TEMPLATES=[{
+export const BUFFET_TEMPLATES=[
+{
 id:'tpl-asian',
 title:'Asian Buffet',
 category:'International',
-tags:['Asiatisch',
-'Klassiker'],
+tags:[
+'Asiatisch',
+'Klassiker']
+,
 image:'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=900&q=70',
 totalPersons:30,
 globalMarkupPct:65,
 status:'published',
-courses:[{
+courses:[
+{
 id:'hauptgang',
 name:'Hauptgang',
-dishes:[{
+dishes:[
+{
 id:'dish-curry',
 name:'Hähnchen-Curry Thai-Style',
-items:[{
+items:[
+{
 articleId:'chicken',
 grammPerPerson:120}
 ,
@@ -58,19 +64,26 @@ grammPerPerson:80}
 {
 articleId:'veg',
 grammPerPerson:90}
-]}
-]}
+]
+}
+]
+}
 ,
 {
 id:'beilage',
 name:'Beilage',
-dishes:[{
+dishes:[
+{
 id:'dish-rice',
 name:'Basmati Reis',
-items:[{
+items:[
+{
 articleId:'rice',
 grammPerPerson:75}
-]}
-]}
-]}
+]
+}
+]
+}
+]
+}
 ]
